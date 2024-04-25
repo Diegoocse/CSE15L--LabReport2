@@ -1,5 +1,32 @@
 PART 1:
 
+1) Code for ChatServer:
+<img width="1131" alt="Screenshot 2024-04-24 at 11 38 36 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/83d124a6-ddd7-4dba-8ae0-65f8882cea6d">
+
+<img width="763" alt="Screenshot 2024-04-24 at 11 39 06 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/ef87de5b-69ea-459e-b469-ee23c5ecfe6d">
+
+<img width="703" alt="Screenshot 2024-04-24 at 11 44 56 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/b5f626cc-09f8-4498-966a-1345c662d7d3">
+
+
+2) Two screenshots and answers to three questions
+<img width="588" alt="Screenshot 2024-04-24 at 11 41 10 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/037ac4e9-07f9-4bb0-863c-167fe287bb92">
+
+  a) The method handleRequest from the ChatMessageHandler class is called.
+
+  b)The method receives a URI representing the incoming request, containing parameters like s=Hello and user=Diego.
+
+  c)In this specific request, the chatHistory field of the ChatMessageHandler class changes because a new chat message is added. 
+  
+<img width="705" alt="Screenshot 2024-04-24 at 11 42 28 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/e65db08c-d648-4ef9-af09-3a89a8205c01">
+
+  a)Methods called were handleRequest from ChatMessageHandler.
+
+  b)Arguments were were URI represented with s=How is your day and user=Eduardo.
+
+  c)In this specific request its the same as the first screenshot since the chatHistory field of the ChatMessageHandler class changes because a new chat message is added.
+  
+
+
 
 PART 2:
 
