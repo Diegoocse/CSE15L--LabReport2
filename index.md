@@ -23,7 +23,7 @@ PART 1:
 
   b)Arguments were were URI represented with s=How is your day and user=Eduardo.
 
-  c)In this specific request, the chatHistory field of the ChatMessageHandler class is updated as follows: before the request, chatHistory contains 'Diego: Hello'; after processing the request /add-message?s=How%20is%20your%20day?&user=Eduardo, chatHistory includes `Diego: Hello/n` and 'Eduardo: How is your day?/n`.
+  c)In this specific request, the chatHistory field of the ChatMessageHandler class is updated as follows: before the request, chatHistory contains 'Diego: Hello'; after processing the request /add-message?s=How%20is%20your%20day?&user=Eduardo, chatHistory includes `Diego: Hello/n` and `Eduardo: How is your day?/n`.
   
 
 
