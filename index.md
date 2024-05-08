@@ -15,7 +15,7 @@ PART 1:
 
   b)The method receives a URI representing the incoming request, containing parameters like s=Hello and user=Diego.
 
-  c)In this specific request, the chatHistory field of the ChatMessageHandler class changes as follows: prior to the request, chatHistory is empty, and after processing the request /add-message?s=Hello&user=Diego, chatHistory contains the message 'Diego: Hello\n'.
+  c)In this specific request, the chatHistory field of the ChatMessageHandler class changes as follows: prior to the request, chatHistory is empty, and after processing the request /add-message?s=Hello&user=Diego, chatHistory contains the message `Diego: Hello\n`.
   
 <img width="705" alt="Screenshot 2024-04-24 at 11 42 28 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/e65db08c-d648-4ef9-af09-3a89a8205c01">
 
@@ -23,7 +23,7 @@ PART 1:
 
   b)Arguments were were URI represented with s=How is your day and user=Eduardo.
 
-  c)In this specific request, the chatHistory field of the ChatMessageHandler class is updated as follows: before the request, chatHistory contains 'Diego: Hello'; after processing the request /add-message?s=How%20is%20your%20day?&user=Eduardo, chatHistory includes 'Diego: Hello' and 'Eduardo: How is your day?'.
+  c)In this specific request, the chatHistory field of the ChatMessageHandler class is updated as follows: before the request, chatHistory contains 'Diego: Hello'; after processing the request /add-message?s=How%20is%20your%20day?&user=Eduardo, chatHistory includes `Diego: Hello/n` and 'Eduardo: How is your day?/n`.
   
 
 
@@ -37,7 +37,8 @@ PART 2:
 
 2)run ls with the absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6 using ssh-copy-id, so it should be a path on ieng6's file system).
 
-<img width="786" alt="Screenshot 2024-04-24 at 10 46 16 PM" src="https://github.com/Diegoocse/CSE15l-lab-report1/assets/146890166/798ea4d2-749f-407e-b83a-5b5969df8561">
+<img width="723" alt="Screenshot 2024-05-08 at 11 56 40 AM" src="https://github.com/Diegoocse/CSE15L--LabReport2/assets/146890166/0281ac8c-8b31-4aed-9b34-7fef8f7305c7">
+
 
 
 3) terminal interaction where you log into your ieng6 account without being asked for a password.
